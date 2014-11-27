@@ -436,7 +436,7 @@
     width: 720px;
     height: 400px;
 }
-#arrowLeft{
+#leftNav{
 	position: absolute;
 	top: 50%;
 	margin-top: -35px;
@@ -447,7 +447,7 @@
 	background: url("resources/arrow.png") no-repeat;
 	cursor: pointer;
 }
-#arrowRight{
+#rightNav{
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
     -webkit-transform: scaleX(-1);
