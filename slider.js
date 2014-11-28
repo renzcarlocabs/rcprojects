@@ -45,10 +45,11 @@ function nextSlide() {
 
 
     $slideContainer
-        .on('click', pauseSlider);
+        .on('mouseenter', pauseSlider)
+        .on('mouseleave', startSlider);
 
     $next.on('click', nextSlide);
     $prev.on('click', prevSlide);
-    window.onload(startSlider())
+   startSlider();
 });
     
