@@ -48,8 +48,8 @@ function nextSlide() {
         .on('mouseenter', pauseSlider)
         .on('mouseleave', startSlider);
 
-    $next.on('click', nextSlide);
-    $prev.on('click', prevSlide);
+    $next.on('click', nextSlide).on('mouseenter',pauseSlider);
+    $prev.on('click', prevSlide).on('mouseenter', pauseSlider);
    startSlider();
 });
     
