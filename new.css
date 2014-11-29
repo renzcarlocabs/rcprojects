@@ -135,7 +135,7 @@
 	visibility: visible;
 	left: 710px;
 	top: 235px;
-	min-height: 195px;
+	min-height: 225px;
 	min-width: 266px;
 	position: absolute;
 }
@@ -413,19 +413,19 @@
 	left: 10px;
 	top: 30px;
 	width: 693px;
-	min-height: 400px;
+	min-height: 434px;
 	position: absolute;
 	}
 #slider {
     width: 693px;
-    height: 400px;
+    height: 434px;
     overflow: hidden;
 }
 
 #slider .slides {
     display: block;
-    width: 6000px;
-    height: 400px;
+    width: 2079px;
+    height: 434px;
     margin: 0;
     padding: 0;
 }
@@ -433,8 +433,8 @@
 #slider .slide {
     float: left;
     list-style-type: none;
-    width: 720px;
-    height: 400px;
+    width: 693px;
+    height: 434px;
 }
 #leftNav{
 	position: absolute;
